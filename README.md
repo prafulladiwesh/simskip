@@ -34,8 +34,9 @@ Creating hand-crafted features for image data takes a lot of time and manual eff
 ![Result Image](https://github.com/prafulladiwesh/simskip/blob/master/Images/Image_complete_data_time.png)
 ![Result Image](https://github.com/prafulladiwesh/simskip/blob/master/Images/Image_hash_data_time.png)
 
-  Top-25 search using DeepHash model takes less time than traditional search using embeddings.
-  The Recall-25 value for the image and textual data is almost equal to 1. This is because it was impossible to perform ANN search for the whole dataset due to lack of available hardware. So the Recall-25 using search on bunch of data and taking mean of all the Recall values.
+    Top-25 search using DeepHash model takes less time than traditional search using embeddings.
+    
+    The Recall-25 value for the image and textual data is almost equal to 1. This is because it was impossible to perform ANN search for the whole dataset due to lack of available hardware. So the Recall-25 using search on bunch of data and taking mean of all the Recall values.
 
 # Individual Contribution:
   1. Created ANN Search model using Apache Parquet and Spark Server.
@@ -44,8 +45,9 @@ Creating hand-crafted features for image data takes a lot of time and manual eff
   4. Generate Embeddings using EfficientNet architecture for ImageNet dataset.
   
 # How to run the application:
-  To perform the ANN search for Top-K images, use : *ImagenetANNSearch.py* which is located at /master/Python%20Files/ImagenetANNSearch.py
-  To run the file, use the ImageHash.csv file and update the file location in the ImagenetANNSearch.py file.
+    To perform the ANN search for Top-K images, use : *ImagenetANNSearch.py* which is located at /master/Python%20Files/ImagenetANNSearch.py
+    
+    To run the file, use the ImageHash.csv file and update the file location in the ImagenetANNSearch.py file.
 #### Command : python3 ImagenetANNSearch.py
 
 # Challenges:
