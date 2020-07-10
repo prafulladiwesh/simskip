@@ -6,9 +6,7 @@ Creating hand-crafted features for image data takes a lot of time and manual eff
 
 ### System Design:
 
-
-
-
+![Result Image](https://github.com/prafulladiwesh/simskip/blob/master/Images/designflowchart.png)
 
 
 ### Goal of the Project:
@@ -32,5 +30,16 @@ Creating hand-crafted features for image data takes a lot of time and manual eff
   8. Evaluate using Recall-25 metric and time report for the search using hashcodes and embeddings.
   
 ### Results:
+
+![Result Image](https://github.com/prafulladiwesh/simskip/blob/master/Images/Image_complete_data_time.png)
+![Result Image](https://github.com/prafulladiwesh/simskip/blob/master/Images/Image_hash_data_time.png)
+
+# Individual Contribution:
+  1. Created ANN Search model using Apache Parquet and Spark Server.
+  2. Perform Top-K search on image and text data.
+  3. Report Recall-25 and Time for the search.
+  4. Generate Embeddings using EfficientNet architecture for ImageNet dataset.
+  
+# How to run the application:
   
   
