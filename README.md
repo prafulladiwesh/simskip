@@ -1,4 +1,4 @@
-# Introduction of the Project
+# Project Introduction
 This project focused on the Similarity Search of the image and text data using DeepHashing approach using Deep Neural Networks for generating hashcodes for the embedding data and performing the Approximate Nearest Neighbour Search using the Hashed data of the image and text. This is a Scientific Team Project with a team size of 6. 
 
 ### Motiovation:
