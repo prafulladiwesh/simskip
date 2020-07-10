@@ -1,5 +1,5 @@
 # Introduction of the Project
-This project focused on the Similarity Search of the image and text data using DeepHashing approach using Deep Neural Networks for generating hashcodes for the embedding data and performing the Approximate Nearest Neighbour Search using the Hashed data of the image and text.
+This project focused on the Similarity Search of the image and text data using DeepHashing approach using Deep Neural Networks for generating hashcodes for the embedding data and performing the Approximate Nearest Neighbour Search using the Hashed data of the image and text. This is a Scientific Team Project with a team size of 6. 
 
 ### Motiovation:
 Creating hand-crafted features for image data takes a lot of time and manual efforts and it is almost impossible to get data with diverse features. Solution to this problem is to use Embedding data which is very useful in calculating similarity between items.
@@ -16,10 +16,10 @@ Creating hand-crafted features for image data takes a lot of time and manual eff
   2. Check if hashing improves the Top-K similarity search.
   
 ### Datasets used for this project:
-  1. Image Data : ImageNet Dataset
+  1. *Image Data:* ImageNet Dataset
       Total images -  1 Million Images
       Images used used for the Experiment - 100,000 (200 classes and 500 images/class)
-  2. Textual Data: GloVe Dataset
+  2. *Textual Data:* GloVe Dataset
 
 ### Implementation Steps:
   1. Generate embedding for the ImageNet dataset using CNN State of the Art architecture EfficientNet.
