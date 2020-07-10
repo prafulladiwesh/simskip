@@ -1,12 +1,12 @@
 # Project Introduction
 This project focused on the Similarity Search of the image and text data using DeepHashing approach using Deep Neural Networks for generating hashcodes for the embedding data and performing the Approximate Nearest Neighbour Search using the Hashed data of the image and text. This is a Scientific Team Project with a team size of 6. 
 
-### Motiovation:
+### Motivation:
 Creating hand-crafted features for image data takes a lot of time and manual efforts and it is almost impossible to get data with diverse features. Solution to this problem is to use Embedding data which is very useful in calculating similarity between items.
 
 ### System Design:
 
-![Result Image](https://github.com/prafulladiwesh/simskip/blob/master/Images/designflowchart.png)
+![Flowchart](https://github.com/prafulladiwesh/simskip/blob/master/Images/designflowchart.png)
 
 
 ### Goal of the Project:
@@ -31,8 +31,8 @@ Creating hand-crafted features for image data takes a lot of time and manual eff
   
 ### Results:
 
-![Result Image](https://github.com/prafulladiwesh/simskip/blob/master/Images/Image_complete_data_time.png)
-![Result Image](https://github.com/prafulladiwesh/simskip/blob/master/Images/Image_hash_data_time.png)
+![Embed Time](https://github.com/prafulladiwesh/simskip/blob/master/Images/Image_complete_data_time.png)
+![Hash Time](https://github.com/prafulladiwesh/simskip/blob/master/Images/Image_hash_data_time.png)
 
   Top-25 search using DeepHash model takes less time than traditional search using embeddings.
 
